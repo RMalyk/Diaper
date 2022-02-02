@@ -1,0 +1,35 @@
+.content {
+  width: 100%;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 177px;
+  background: radial-gradient(
+    72.58% 488.59% at 73.05% 68.11%,
+    #7ad0d9 0%,
+    #1eacbb 100%
+  );
+  height: 100%;
+  position: relative;
+}
+.main__box-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.main__box-left {
+  max-width: 690px;
+  color: #fff;
+}
+
+.page__title {
+  font-size: 54px;
+  line-height: 1.2em;
+  margin-bottom: 38px;
+}
+
+.page__text {
+  font-size: 22px;
+  line-height: 27px;
+}

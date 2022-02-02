@@ -1,0 +1,29 @@
+.header {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  padding-top: 23px;
+  color: #fff;
+}
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu__item:not(:last-child) {
+  margin-right: 33px;
+  padding-bottom: 12px;
+  transition: all .3s;
+}
+.menu__item:hover {
+  color: #b1e9ef;
+  border-bottom: 2px solid #b1e9ef;
+}
+.menu__link {
+}
