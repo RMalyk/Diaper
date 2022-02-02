@@ -7,6 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
 	<link rel="stylesheet" href="css/reset.css" />
+	<link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
 	<link rel="stylesheet" href="css/global.css" />
 	<link rel="stylesheet" href="css/_fonts.css" />
 	<link rel="stylesheet" href="css/style.css" />
@@ -80,34 +81,22 @@
 						</div>
 					</div>
 					<div class="main__box-right">
-
-
-						
-						<!-- <div class="main__slider" style="display:none;">
-							<div class="main__slider-inner">
-								<div class="main__slider-item">
-									<img class="main__slider-img" src="images/slider/slider-1.png" alt="slider-1" />
+						<div class="swiper mySwiper">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide">
+									<img src="images/slider/slider-3.png" alt="slider-3">
 								</div>
-								<div class="main__slider-item">
-									<img class="main__slider-img" src="images/slider/slider-2.png" alt="slider-2" />
+								<div class="swiper-slide">
+									<img src="images/slider/slider-3.png" alt="slider-3">
 								</div>
-								<div class="main__slider-item">
-									<img class="main__slider-img" src="images/slider/slider-3.png" alt="slider-3" />
+								<div class="swiper-slide">
+									<img src="images/slider/slider-3.png" alt="slider-3">
 								</div>
 							</div>
-							<div class="main__slider-nav">
-								<button class="main__slider-prev" type="button">
-									<img class="btn__slider__arrow-prev" src="images/icons/arrow-left.svg" alt="#" />
-								</button>
-								<div class="main__slider-pagination">
-									<p>1</p>
-									/<span>3</span>
-								</div>
-								<button class="main__slider-next" type="button">
-									<img class="btn__slider__arrow-next" src="images/icons/arrow-right.svg" alt="#" />
-								</button>
-							</div>
-						</div> -->
+							<div class="swiper-button-next"></div>
+							<div class="swiper-button-prev"></div>
+							<div class="swiper-pagination"></div>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -512,9 +501,11 @@
 		</section>
 	</footer>
 
-	<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-	<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<!-- <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script> -->
+	<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
 	<script src="js/scripts.js"></script>
+	<script src="js/swiper-slider.js"></script>
 </body>
 
 </html>

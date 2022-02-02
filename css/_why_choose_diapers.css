@@ -1,0 +1,44 @@
+.advantages {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	width: 100%;
+}
+
+.advantages__item {
+	max-width: 210px;
+	height: 417px;
+	margin-right: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+	/* padding: 10px; */
+}
+/* .advantages__item:not(:last-child) {
+	margin-right: 0;
+} */
+.advantages__img {
+	margin-bottom: 26px;
+	background-color: #e5fdff;
+	padding: 27px;
+	border-radius: 50%;
+	/* display: inline-flex; */
+	width: 100px;
+	height: 100px;
+}
+.advantages__title {
+	font-family: "Proxima Nova Semibold";
+	font-size: 20px;
+	line-height: 24px;
+	color: #374957;
+	margin-bottom: 21px;
+	width: 190px;
+	flex-grow: 1;
+}
+
+.advantages__text {
+	font-size: 16px;
+	line-height: 22px;
+	color: #5f7d95;
+}
