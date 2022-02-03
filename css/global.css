@@ -40,9 +40,14 @@ section {
 }
 
 .container {
+<<<<<<< HEAD
 	width: 1200px;
 	margin: 0 auto;
 	padding: 0 15px;
+=======
+	width: 1170px;
+	margin: 0 auto;
+>>>>>>> eefb5f3ddce2b0d6549c9cd82486f968868095b5
 }
 
 .btn {
@@ -54,6 +59,10 @@ section {
 	letter-spacing: 0.04em;
 	font-family: "Proxima Nova Semibold";
 	padding: 18px 65px;
+<<<<<<< HEAD
+=======
+	transition: all .3s;
+>>>>>>> eefb5f3ddce2b0d6549c9cd82486f968868095b5
 }
 
 .btn:hover {
@@ -64,6 +73,14 @@ section {
 .btn:active {
 	box-shadow: none;
 }
+<<<<<<< HEAD
+=======
+.btn:focus {
+	box-shadow: none;
+	border: none;
+	outline: none;
+}
+>>>>>>> eefb5f3ddce2b0d6549c9cd82486f968868095b5
 
 .section__title {
 	text-align: center;

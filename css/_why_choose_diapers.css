@@ -1,11 +1,16 @@
 .advantages {
 	display: flex;
+<<<<<<< HEAD
 	justify-content: center;
+=======
+	justify-content: space-between;
+>>>>>>> eefb5f3ddce2b0d6549c9cd82486f968868095b5
 	flex-wrap: wrap;
 	width: 100%;
 }
 
 .advantages__item {
+<<<<<<< HEAD
 	max-width: 210px;
 	height: 417px;
 	margin-right: 20px;
@@ -41,4 +46,37 @@
 	font-size: 16px;
 	line-height: 22px;
 	color: #5f7d95;
+=======
+	max-width: 213px;
+	min-height: 417px;
+	flex: 0 0 24%;
+	/* margin: 0 10px; */
+	/* display: flex;
+	justify-content: space-between;
+	flex-direction: column; */
+}
+
+.advantages__img {
+	background-color: #e5fdff;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100px;
+	height: 100px;
+	margin-bottom: 25px;
+}
+.advantages__title {
+	font-family: "Proxima Nova Semibold";
+	width: 190px;
+	font-size: 20px;
+	line-height: 24px;
+	/* margin-bottom: 20px; */
+	min-height: 72px;
+}
+
+.advantages__text {
+	line-height: 140.1%;
+	margin-top: 24px;
+>>>>>>> eefb5f3ddce2b0d6549c9cd82486f968868095b5
 }

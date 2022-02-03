@@ -1,55 +1,70 @@
 .header {
+<<<<<<< HEAD
     position: absolute;
     z-index: 1;
     width: 100%;
     padding-top: 23px;
     color: #fff;
 		font-family: "Proxima Nova Semibold";
+=======
+	position: absolute;
+	z-index: 1;
+	width: 100%;
+	padding-top: 23px;
+	color: #fff;
+>>>>>>> eefb5f3ddce2b0d6549c9cd82486f968868095b5
 }
 
 .header-wrapper {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
+
 .menu__list {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
 .menu__item:not(:last-child) {
-    margin-right: 33px;
+	margin-right: 33px;
 }
 
 .menu__item {
+<<<<<<< HEAD
     transition: all .3s;
     padding-bottom: 12px;
     margin-bottom: -12px;
     transition: all .3s;
 		border-bottom: 2px solid transparent;
+=======
+	transition: all 0.3s;
+	padding-bottom: 12px;
+	margin-bottom: -12px;
+	transition: all 0.3s;
+>>>>>>> eefb5f3ddce2b0d6549c9cd82486f968868095b5
 }
 
 .menu__item:hover {
-    color: #b1e9ef;
-    border-bottom: 2px solid #b1e9ef;
+	color: #b1e9ef;
+	border-bottom: 2px solid #b1e9ef;
 }
 
 .header__phone {
-    padding-bottom: 11px;
-    font-family: "Proxima Nova Semibold";
+	padding-bottom: 11px;
+	font-family: "Proxima Nova Semibold";
 }
 
 .header__callback button {
-    background-color: transparent;
-    border: none;
-    border-bottom: 1px dashed #fff;
-    color: #fff;
-    margin-left: 29px;
-    padding-bottom: 3px;
+	background-color: transparent;
+	border: none;
+	border-bottom: 1px dashed #fff;
+	color: #fff;
+	margin-left: 29px;
+	padding-bottom: 3px;
 }
-
 
 /* .header__callback:focus {
     border: none;
