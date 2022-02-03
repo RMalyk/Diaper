@@ -1,6 +1,6 @@
 .advantages {
 	display: flex;
-	justify-content: center;
+	justify-content: space-between;
 	flex-wrap: wrap;
 	width: 100%;
 }
@@ -8,10 +8,11 @@
 .advantages__item {
 	max-width: 213px;
 	min-height: 417px;
-	margin: 0 10px;
-	display: flex;
+	flex: 0 0 24%;
+	/* margin: 0 10px; */
+	/* display: flex;
 	justify-content: space-between;
-	flex-direction: column;
+	flex-direction: column; */
 }
 
 .advantages__img {
@@ -30,5 +31,10 @@
 	font-size: 20px;
 	line-height: 24px;
 	/* margin-bottom: 20px; */
-	flex-grow: 1;
+	min-height: 72px;
+}
+
+.advantages__text {
+	line-height: 140.1%;
+	margin-top: 24px;
 }

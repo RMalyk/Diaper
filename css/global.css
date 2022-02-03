@@ -53,6 +53,7 @@ section {
 	letter-spacing: 0.04em;
 	font-family: "Proxima Nova Semibold";
 	padding: 18px 65px;
+	transition: all .3s;
 }
 
 .btn:hover {
@@ -62,6 +63,11 @@ section {
 }
 .btn:active {
 	box-shadow: none;
+}
+.btn:focus {
+	box-shadow: none;
+	border: none;
+	outline: none;
 }
 
 .section__title {
