@@ -1,0 +1,34 @@
+.advantages {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	width: 100%;
+}
+
+.advantages__item {
+	max-width: 213px;
+	min-height: 417px;
+	margin: 0 10px;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+}
+
+.advantages__img {
+	background-color: #e5fdff;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100px;
+	height: 100px;
+	margin-bottom: 25px;
+}
+.advantages__title {
+	font-family: "Proxima Nova Semibold";
+	width: 190px;
+	font-size: 20px;
+	line-height: 24px;
+	/* margin-bottom: 20px; */
+	flex-grow: 1;
+}
