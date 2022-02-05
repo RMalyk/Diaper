@@ -26,7 +26,8 @@
 .main__box-left {
 	max-width: 814px;
 	color: #fff;
-	padding-left: 132px;
+	letter-spacing: 0.6px;
+	padding-left: 115px;
 	width: 100%;
 }
 
@@ -57,7 +58,8 @@
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
-	margin-right: 78px;
+	margin-right: 67px;
+	letter-spacing: 0.04em;
 }
 .benefits__item:last-child {
 	margin-right: 0;

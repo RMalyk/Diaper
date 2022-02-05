@@ -1,3 +1,146 @@
-.choose_color{
+.choose_color {
 	padding-top: 65px;
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+}
+.choose_color .container{
+	padding-bottom: 67px;
+}
+
+.choose_color::after,
+.choose_color::before {
+	position: absolute;
+	content: "";
+	width: 50%;
+	height: 100%;
+	z-index: -2;
+}
+
+.choose_color::after {
+	background: #edf7f8;
+	top: 0;
+	left: 0;
+}
+.choose_color::before {
+	background: #fff0ed;
+	right: 0;
+	top: 0;
+}
+
+.cards {
+	display: flex;
+	justify-content: space-between;
+	column-gap: 21px;
+	position: relative;
+	/* overflow: hidden; */
+}
+
+.cards::before,
+.cards::after {
+	position: absolute;
+	content: "";
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+}
+
+.cards::after {
+	background-image: url(../images/background/left.png);
+	top: 0;
+	left: -32%;
+}
+.cards::before {
+	background-image: url(../images/background/right.png);
+	top: 0;
+	right: -100%;
+}
+
+.card__item {
+	max-width: 380px;
+	min-height: 615px;
+	text-align: center;
+	padding: 25px;
+	background-color: #fff;
+}
+.card__img {
+	width: 100%;
+}
+
+.card__header {
+	max-width: 380;
+	max-height: 380px;
+	margin-bottom: 10px;
+}
+
+.card__description {
+	font-family: "Proxima Nova Semibold";
+	font-size: 20px;
+	line-height: 24px;
+}
+
+.card__title {
+	margin-bottom: 10px;
+}
+.card__color {
+	font-family: "Proxima Nova Regular";
+	font-size: 18px;
+	line-height: 22px;
+	margin-bottom: 19px;
+}
+.card__price {
+	margin-bottom: 21px;
+}
+.card__footer {
+	display: flex;
+	justify-content: space-between;
+}
+.card-input-wrapper {
+	border: 1px solid #e5e5e5;
+	border-radius: 58px;
+	max-width: 143px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 10px;
+}
+.card__footer-input {
+	border: none;
+	width: 100%;
+	height: 56px;
+	font-size: 16px;
+	line-height: 24px;
+	align-items: center;
+	text-align: center;
+}
+
+.dec,
+.inc {
+	width: 40px;
+	height: 36px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+}
+
+.dec {
+	transform: rotate(180deg);
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+	display: none;
+}
+
+.card__footer-btn {
+	width: 180px;
+	height: 56px;
+	padding: 14px 60px;
+	font-size: 18px;
+	line-height: 28px;
+	color: #fff;
+	outline: none;
+	border: none;
 }
