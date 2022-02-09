@@ -13,7 +13,7 @@
 
 .contacts__item a,
 .contacts__item p{
-	min-width: 215px;
+	max-width: 215px;
 }
 
 .contacts__img{

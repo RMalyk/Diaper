@@ -1,27 +1,22 @@
-.why_choose_diapers{
+.why_choose_diapers {
 	width: 100%;
 }
-.why_choose_diapers .container{
-	max-width: 1200px;
-	margin: 0 auto;
-}
-
 
 .advantages {
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
 	flex-wrap: wrap;
 	width: 100%;
 }
 
 .advantages__item {
-	max-width: 213px;
+	max-width: 218px;
 	min-height: 417px;
-	flex: 0 0 24%;
-	/* margin: 0 10px; */
-	/* display: flex;
-	justify-content: space-between;
-	flex-direction: column; */
+	margin: 0 10px;
+}
+.advantages__item:first-child,
+.advantages__item:last-child {
+	margin: 0;
 }
 
 .advantages__img {

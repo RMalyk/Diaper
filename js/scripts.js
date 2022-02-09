@@ -30,12 +30,20 @@ var gallery__slider = new Swiper(".gallery__slider", {
 });
 
 var reviews__slider = new Swiper(".reviews__slider", {
-	slidesPerView: 3,
+	slidesPerView: 2,
 	spaceBetween: 20,
 	pagination: {
 		el: ".swiper-pagination",
 		clickable: true,
 	},
+  breakpoints: {
+    
+    1450: {
+      slidesPerView: 3,
+      spaceBetween: 40
+    }
+  }
+
 });
 
 
