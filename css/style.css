@@ -1,10 +1,9 @@
-.swiper {
+.main__slider {
     width: 590px;
     height: 590px;
 }
 
 .swiper-slide {
-    padding: 0 100px 70px 100px;
     text-align: center;
     font-size: 18px;
     display: -webkit-box;
@@ -43,12 +42,12 @@
     background: #007aff;
 }
 
-.mySwiper {
+.main__slider {
     position: relative;
 }
 
-.mySwiper::after,
-.mySwiper::before {
+.main__slider::after,
+.main__slider::before {
     position: absolute;
     content: "";
     width: 100%;
@@ -61,11 +60,11 @@
     bottom: 0;
 }
 
-.mySwiper::before {
+.main__slider::before {
     background-image: url('../images/Ellipse-2.svg');
     z-index: 1;
 }
 
-.mySwiper::after {
+.main__slider::after {
     background-image: url('../images/Ellipse-3.svg');
 }

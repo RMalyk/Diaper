@@ -1,0 +1,30 @@
+.why_choose_us-content {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	gap: 70px 70px;
+}
+.why_choose_us-center {
+	grid-column-start: 2;
+	grid-column-end: 4;
+	grid-row-start: 1;
+	grid-row-end: 3;
+}
+.why_choose_us-item-header {
+	background-color: #e5fdff;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100px;
+	height: 100px;
+	margin-bottom: 21px;
+}
+
+.why_choose_us-item-title {
+	font-size: 24px;
+	line-height: 29px;
+	font-family: "Proxima Nova Semibold";
+	color: #374957;
+	margin-bottom: 16px;
+}
