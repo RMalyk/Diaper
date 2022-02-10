@@ -22,9 +22,16 @@
 	-ms-flex-align: center;
 	-webkit-align-items: center;
 	align-items: center;
+	transition: all .6s;
 }
 
 .reviews__wrapper .swiper-slide img {
 	width: 140px;
 	height: 140px;
+}
+
+.reviews__wrapper .swiper-slide-next{
+	/* width: 681px; */
+	margin-top: 50px;
+	/* width: 100%; */
 }
