@@ -5,8 +5,8 @@ var main__slider = new Swiper(".main__slider", {
 		type: "fraction",
 	},
 	navigation: {
-		nextEl: ".swiper-button-next",
-		prevEl: ".swiper-button-prev",
+		nextEl: ".main__slider-button-next",
+		prevEl: ".main__slider-button-prev",
 	},
 });
 
