@@ -1,12 +1,14 @@
 .choose_color {
     padding-top: 65px;
+    padding-bottom: 65px;
     position: relative;
     width: 100%;
     overflow: hidden;
 }
 
 .choose_color .container {
-    padding-bottom: 67px;
+    /* padding-bottom: 67px; */
+    max-width: 1210px;
 }
 
 .choose_color::after,
@@ -32,9 +34,11 @@
 
 .cards {
     display: flex;
-    justify-content: space-between;
-    column-gap: 21px;
+    justify-content: center;
+    column-gap: 20px;
+    row-gap: 20px;
     position: relative;
+    flex-wrap: wrap;
 }
 
 .cards::before,
@@ -64,8 +68,14 @@
     min-height: 615px;
     text-align: center;
     padding: 25px;
+    /* margin-bottom: 30px; */
     background-color: #fff;
 }
+
+
+/* .card__item:last-child {
+    margin-bottom: 30px;
+} */
 
 .card__img {
     width: 100%;
@@ -73,7 +83,7 @@
 }
 
 .card__header {
-    max-width: 380;
+    width: 100%;
     max-height: 380px;
     margin-bottom: 10px;
 }

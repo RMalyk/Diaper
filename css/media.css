@@ -1,4 +1,4 @@
-@media (max-width: 1470px) {
+@media (max-width: 1460px) {
     .main__slider {
         top: 0;
         left: -100px;
@@ -26,6 +26,12 @@
     }
     .header__mobile-menu {
         display: block;
+    }
+}
+
+@media (max-width: 1060px) {
+    .how_to_order-item:not(:last-child):after {
+        left: 190px;
     }
 }
 

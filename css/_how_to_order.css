@@ -8,7 +8,8 @@
 }
 
 .how_to_order-item {
-    min-width: 280px;
+    max-width: 280px;
+    width: 100%;
     text-align: center;
     position: relative;
 }
@@ -40,4 +41,8 @@
     line-height: 24px;
     src: url("../fonts/ProximaNova-Semibold.eot");
     color: #374957;
+}
+
+.how_to_order-item:nth-child(2)::after {
+    border: 5px solid green;
 }
