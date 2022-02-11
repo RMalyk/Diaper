@@ -1,3 +1,19 @@
+@media (max-width: 1470px) {
+    .main__slider {
+        top: 0;
+        left: -100px;
+        width: 380px;
+        height: 380px;
+    }
+    .main__slider-img {
+        background-color: transparent;
+        padding: 1px 66px 45px 71px;
+    }
+    .reviews__wrapper .swiper-slide-next {
+        margin-top: 0;
+    }
+}
+
 @media (max-width: 1200px) {
     .menu__item:not(:last-child) {
         margin-right: 20px;
@@ -24,7 +40,13 @@
     }
 }
 
-@media (max-width: 780px) {
+@media (max-width: 870px) {
+    .main__info {
+        width: 299px
+    }
+}
+
+@media (max-width: 750px) {
     /* .btn-order {
 		margin-left: auto;
 		margin-right: auto;

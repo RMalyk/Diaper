@@ -105,6 +105,7 @@
     bottom: 0;
     width: 100%;
     content: "";
+    background-size: cover;
     background-image: url("../images/group_ellipse.svg");
 }
 
