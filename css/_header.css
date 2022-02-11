@@ -1,68 +1,63 @@
 .header {
-	position: absolute;
-	z-index: 1;
-	width: 100%;
-	padding-top: 23px;
-	color: #fff;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    padding-top: 23px;
+    color: #fff;
 }
 
 .header-wrapper {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	width: 100%;
-	/* padding: 15px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
 }
 
-.logo{
-	margin-right: 20px;
+.logo {
+    margin-right: 20px;
 }
 
-.header__nav{
-	margin-right: 20px;
+.header__nav {
+    margin-right: 20px;
 }
 
 .menu__list {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .menu__item:not(:last-child) {
-	margin-right: 33px;
+    margin-right: 33px;
 }
 
 .menu__item {
-	transition: all 0.3s;
-	padding-bottom: 12px;
-	margin-bottom: -12px;
-	border-bottom: 2px solid transparent;
-	transition: all 0.3s;
+    transition: all 0.3s;
+    padding-bottom: 12px;
+    margin-bottom: -12px;
+    border-bottom: 2px solid transparent;
+    transition: all 0.3s;
 }
 
 .menu__item:hover {
-	color: #b1e9ef;
-	border-bottom: 2px solid #b1e9ef;
+    color: #b1e9ef;
+    border-bottom: 2px solid #b1e9ef;
 }
 
 .header__phone {
-	padding-bottom: 11px;
-	font-family: "Proxima Nova Semibold";
+    padding-bottom: 11px;
+    font-family: "Proxima Nova Semibold";
 }
 
 .header__callback button {
-	background-color: transparent;
-	border: none;
-	border-bottom: 1px dashed #fff;
-	color: #fff;
-	margin-left: 29px;
-	padding-bottom: 3px;
-}
-
-.header__mobile-contact{
-	display: none;
-}
-
-/* .header__callback:focus {
+    background-color: transparent;
     border: none;
-} */
+    border-bottom: 1px dashed #fff;
+    color: #fff;
+    margin-left: 29px;
+    padding-bottom: 3px;
+}
+
+.header__mobile-contact {
+    display: none;
+}

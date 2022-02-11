@@ -1,44 +1,45 @@
 .why_choose_diapers {
-	width: 100%;
+    width: 100%;
 }
 
 .advantages {
-	display: flex;
-	justify-content: center;
-	flex-wrap: wrap;
-	width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
 }
 
 .advantages__item {
-	max-width: 218px;
-	min-height: 417px;
-	margin: 0 10px;
+    max-width: 218px;
+    min-height: 417px;
+    margin: 0 10px;
 }
+
 .advantages__item:first-child,
 .advantages__item:last-child {
-	margin: 0;
+    margin: 0;
 }
 
 .advantages__img {
-	background-color: #e5fdff;
-	border-radius: 50%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	width: 100px;
-	height: 100px;
-	margin-bottom: 25px;
+    background-color: #e5fdff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 25px;
 }
+
 .advantages__title {
-	font-family: "Proxima Nova Semibold";
-	width: 190px;
-	font-size: 20px;
-	line-height: 24px;
-	/* margin-bottom: 20px; */
-	min-height: 72px;
+    font-family: "Proxima Nova Semibold";
+    width: 190px;
+    font-size: 20px;
+    line-height: 24px;
+    min-height: 72px;
 }
 
 .advantages__text {
-	line-height: 140.1%;
-	margin-top: 24px;
+    line-height: 140.1%;
+    margin-top: 24px;
 }

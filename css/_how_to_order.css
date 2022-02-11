@@ -1,44 +1,43 @@
 .how_to_order .container {
-	max-width: 1134px;
+    max-width: 1134px;
 }
 
 .how_to_order-wrapper {
-	display: flex;
-	justify-content: space-between;
-}
-.how_to_order-item {
-	min-width: 280px;
-	text-align: center;
-	position: relative;
+    display: flex;
+    justify-content: space-between;
 }
 
-.how_to_order-item:not(:last-child):after{
-	position: absolute;
-	content: "";
-	background-image: url("../images/long-arrow.svg");
-	width: 60px;
-	height: 9px;
-	top: 60px;
-	left: 250px;
-	background-repeat: no-repeat;
+.how_to_order-item {
+    min-width: 280px;
+    text-align: center;
+    position: relative;
+}
+
+.how_to_order-item:not(:last-child):after {
+    position: absolute;
+    content: "";
+    background-image: url("../images/long-arrow.svg");
+    width: 60px;
+    height: 9px;
+    top: 60px;
+    left: 250px;
+    background-repeat: no-repeat;
 }
 
 .how_to_order-img {
-	background-color: #e5fdff;
-	border-radius: 50%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	width: 100px;
-	height: 100px;
-	margin: 0 auto 25px;
-
-	/* align-self: center; */
+    background-color: #e5fdff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto 25px;
 }
 
 .how_to_order-text {
-	font-size: 20px;
-	line-height: 24px;
-	src: url("../fonts/ProximaNova-Semibold.eot");
-	color: #374957;
+    font-size: 20px;
+    line-height: 24px;
+    src: url("../fonts/ProximaNova-Semibold.eot");
+    color: #374957;
 }
