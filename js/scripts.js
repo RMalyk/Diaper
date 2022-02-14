@@ -40,13 +40,17 @@ var gallery__slider = new Swiper(".gallery__slider", {
 });
 
 var reviews__slider = new Swiper(".reviews__slider", {
-	slidesPerView: 2,
+	slidesPerView: 1,
 	spaceBetween: 20,
 	pagination: {
 		el: ".swiper-pagination",
 		clickable: true,
 	},
 	breakpoints: {
+		954: {
+			slidesPerView: 2,
+			spaceBetween: 40
+		},
 		1450: {
 			slidesPerView: 3,
 			spaceBetween: 40

@@ -13,6 +13,11 @@
 		margin-top: 0;
 	}
 }
+@media (max-width: 1450px) {
+	.reviews__wrapper .swiper {
+    min-height: 219px;
+}
+}
 
 @media (max-width: 1200px) {
 	.menu__item:not(:last-child) {

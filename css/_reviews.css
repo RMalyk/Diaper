@@ -8,9 +8,9 @@
     flex-wrap: wrap;
 }
 
-.reviews__slider {
+/* .reviews__slider {
     min-height: 219px;
-}
+} */
 
 .reviews__item {
     display: flex;
