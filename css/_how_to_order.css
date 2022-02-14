@@ -4,7 +4,7 @@
 
 .how_to_order-wrapper {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .how_to_order-item {
@@ -43,6 +43,3 @@
     color: #374957;
 }
 
-.how_to_order-item:nth-child(2)::after {
-    border: 5px solid green;
-}

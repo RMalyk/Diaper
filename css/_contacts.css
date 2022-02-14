@@ -5,9 +5,9 @@
 }
 
 .contacts__item{
-	max-width: 253px;
+	width: 25%;
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
 	align-items: center;
 }
 
