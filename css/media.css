@@ -34,6 +34,38 @@
 		left: 190px;
 	}
 }
+@media (max-width: 1030px) {
+	.why_choose_us-content {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.why_choose_us-center {
+		margin: 0 auto;
+		order: -1;
+		width: 100%;
+		align-self: center;
+	}
+	.why_choose_us-wrapper-right,
+	.why_choose_us-wrapper-left {
+		width: 100%;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+	}
+	.why_choose_us-item {
+		max-width: 350px;
+		margin-bottom: 0;
+	}
+	.why_choose_us-item:nth-child(odd) {
+		margin-right: 30px;
+	}
+
+	.why_choose_us-item-description {
+		max-width: 100%;
+	}
+}
 
 @media (max-width: 900px) {
 	.page__title {

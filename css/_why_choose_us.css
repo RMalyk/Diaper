@@ -1,14 +1,18 @@
 .why_choose_us-content {
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr 1fr;
-	grid-template-rows: 1fr 1fr;
+	grid-template-columns: repeat(auto-fit, minmax(279px, 1fr));
+	grid-template-rows: repeat(auto-fit, minmax(601px, 1fr));
 	gap: 70px 70px;
+	width: 100%;
 }
 .why_choose_us-center {
-	grid-column-start: 2;
-	grid-column-end: 4;
-	grid-row-start: 1;
-	grid-row-end: 3;
+	grid-row: span 2;
+	max-width: 487px;
+	margin-left: -80px;
+}
+
+.why_choose_us-item {
+	margin-bottom: 79px;
 }
 .why_choose_us-item-header {
 	background-color: #e5fdff;
@@ -19,6 +23,10 @@
 	width: 100px;
 	height: 100px;
 	margin-bottom: 21px;
+}
+
+.why_choose_us-item-description {
+	max-width: 279px;
 }
 
 .why_choose_us-item-title {
