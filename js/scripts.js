@@ -11,12 +11,22 @@ var main__slider = new Swiper(".main__slider", {
 });
 
 var cards__slider = new Swiper(".cards__slider", {
-	slidesPerView: 3,
-	spaceBetween: 30,
+	slidesPerView: 1,
+	spaceBetween: 20,
 	pagination: {
 		el: ".swiper-pagination",
 		clickable: true,
 	},
+	breakpoints: {
+		830: {
+			slidesPerView: 2,
+			spaceBetween: 20
+		},
+		1250: {
+			slidesPerView: 3,
+			spaceBetween: 20
+		}
+	}
 });
 
 var gallery__slider = new Swiper(".gallery__slider", {
@@ -36,13 +46,12 @@ var reviews__slider = new Swiper(".reviews__slider", {
 		el: ".swiper-pagination",
 		clickable: true,
 	},
-  breakpoints: {
-    
-    1450: {
-      slidesPerView: 3,
-      spaceBetween: 40
-    }
-  }
+	breakpoints: {
+		1450: {
+			slidesPerView: 3,
+			spaceBetween: 40
+		}
+	}
 
 });
 
