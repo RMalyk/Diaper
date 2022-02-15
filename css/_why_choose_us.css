@@ -1,3 +1,6 @@
+.why_choose_us {
+	margin: 0;
+}
 .why_choose_us-content {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(279px, 1fr));

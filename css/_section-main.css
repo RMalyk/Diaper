@@ -108,7 +108,7 @@
 	background-size: cover;
 	background-image: url("../images/group_ellipse.svg");
 }
-
+/* 
 .main__slider::before {
 	position: absolute;
 	top: 114px;
@@ -120,8 +120,10 @@
 	background-image: url("../images/slider-clouds.svg");
 	z-index: 1;
 	background-repeat: no-repeat;
-}
+} */
 
+/* 
+==================================
 .main__slider-button-next,
 .main__slider-button-prev {
 	position: relative;
@@ -149,7 +151,7 @@
 	transform: rotate(180deg);
 	right: 212px;
 }
-
+============================================= */
 .swiper-pagination-current {
 	font-family: "Proxima Nova Semibold";
 	font-size: 22px;

@@ -51,7 +51,7 @@ var reviews__slider = new Swiper(".reviews__slider", {
 			slidesPerView: 2,
 			spaceBetween: 40
 		},
-		1450: {
+		1735: {
 			slidesPerView: 3,
 			spaceBetween: 40
 		}

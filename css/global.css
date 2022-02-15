@@ -36,7 +36,9 @@ body {
 }
 
 section {
-	margin-bottom: 100px;
+	/* margin-bottom: 100px; */
+	padding-top: 100px;
+	padding-bottom: 100px;
 }
 
 .container {
@@ -56,7 +58,7 @@ section {
 	letter-spacing: 0.04em;
 	font-family: "Proxima Nova Semibold";
 	padding: 18px 65px;
-	transition: all .3s;
+	transition: all 0.3s;
 }
 
 .btn:hover {
@@ -82,7 +84,6 @@ section {
 	margin-bottom: 68px;
 	position: relative;
 }
-
 
 .swiper {
 	width: 100%;
