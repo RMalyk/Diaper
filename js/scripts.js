@@ -96,3 +96,21 @@ $increments.click(function () {
 
 
 
+
+
+
+
+
+// Textarea test
+// $('body')
+//     .one('focus.textarea', '#myTextarea', function(e) {
+//         baseH = this.scrollHeight;
+//     })
+//     .on('input.textarea', '#myTextarea', function(e) {
+//         if(baseH < this.scrollHeight) {
+//             $(this).height(0).height(this.scrollHeight);
+//         }
+//         else {
+//             $(this).height(0).height(baseH);
+//         }
+//     });
