@@ -13,6 +13,7 @@ var main__slider = new Swiper(".main__slider", {
 var cards__slider = new Swiper(".cards__slider", {
 	slidesPerView: 1,
 	spaceBetween: 20,
+	loop: true,
 	touchStartForcePreventDefault: true,
 	pagination: {
 		el: ".swiper-pagination",
@@ -29,8 +30,8 @@ var cards__slider = new Swiper(".cards__slider", {
 		}
 	},
 	navigation: {
-		nextEl: '.swiper-button-next',
-		prevEl: '.swiper-button-prev',
+		nextEl: '.cards__slider-button-next',
+		prevEl: '.cards__slider-button-prev',
 	},
 });
 
