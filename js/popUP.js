@@ -11,7 +11,6 @@ $body.on('click', function (event) {
 			switch ($classArr[i]) {
 				case 'card__footer-btn':
 					changeClassPopUp('.popUp__checkout');
-					console.log(this);
 					break;
 				case 'header__callback-btn':
 					changeClassPopUp('.popUp__call_back');
