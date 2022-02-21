@@ -21,8 +21,17 @@
 		width: 78px;
 		height: 41px;
 		top: 233px;
-    left: 268px;
+		left: 268px;
 	}
+	.main__slider-button-next {
+		left: 105px;
+		top: -57px;
+	}
+	.main__slider-button-prev {
+		left: 232px;
+		top: -91px;
+	}
+
 	.main__slider-img {
 		background-color: transparent;
 		padding: 1px 66px 45px 71px;
