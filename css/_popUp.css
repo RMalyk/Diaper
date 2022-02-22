@@ -249,3 +249,7 @@
 .popUp-isActive {
 	display: block;
 }
+
+.noScroll {
+	overflow: hidden;
+}

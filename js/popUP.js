@@ -11,6 +11,7 @@ $body.on('click', function (event) {
 			switch ($classArr[i]) {
 				case 'card__footer-btn':
 					changeClassPopUp('.popUp__checkout');
+					$('body').addClass('noScroll');
 					break;
 				case 'header__callback-btn':
 					changeClassPopUp('.popUp__call_back');
@@ -20,8 +21,8 @@ $body.on('click', function (event) {
 					break;
 				case 'popUp-wrapper':
 					$('.popUp-wrapper').removeClass('popUp-isActive');
+					$('body').removeClass('noScroll');
 					break;
-
 				default:
 					break;
 			}
