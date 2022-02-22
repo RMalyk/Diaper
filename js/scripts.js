@@ -83,7 +83,7 @@ $decriments.click(function () {
 			$increments.find('path').attr('fill', '#414141');
 		}
 	}
-	Test($(this));
+	shoppingСartСount($(this));
 
 });
 
@@ -100,5 +100,5 @@ $increments.click(function () {
 			$decriments.find('path').attr('fill', '#414141');
 		}
 	}
-	Test($(this));
+	shoppingСartСount($(this));
 });
