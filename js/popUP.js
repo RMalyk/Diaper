@@ -18,6 +18,11 @@ $body.on('click', function (event) {
 				case 'btn-order':
 					changeClassPopUp('.popUp__checkout');
 					break;
+				case 'header__mobile-menu-btn':
+					console.log(1);
+					$('.mobile__menu-list').toggleClass('mobile_menu_isActive');
+					// changeClassPopUp('.popUp__checkout');
+					break;
 				case 'popUp-wrapper':
 					$('.popUp-wrapper').removeClass('popUp-isActive');
 					$('body').removeClass('noScroll');
