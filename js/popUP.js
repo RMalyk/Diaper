@@ -1,4 +1,3 @@
-
 $body = $('body');
 
 $body.on('click', function (event) {

@@ -72,9 +72,31 @@
 	.menu__list {
 		display: none;
 	}
-	.header__mobile-menu {
+	.header__mobile-menu-btn {
 		display: block;
 	}
+	.mobile__menu-list {
+		display: block;
+		position: absolute;
+		top: -23px;
+		left: 0;
+		max-width: 379px;
+		height: 100vh;
+		background: linear-gradient(180deg, #40c1ce 0%, #b2f2f9 100%, #86e7f1 100%);
+		box-shadow: 17px 0px 40px rgba(0, 123, 137, 0.3);
+		padding: 110px 85px;
+		z-index: 1000;
+	}
+	.mobile__menu-item{
+		margin: 20px 0;
+		border-bottom: 2px solid transparent;
+		padding-bottom: 12px;
+		transition: all 0.3s;
+	}
+	.mobile__menu-item:hover {
+    color: #b1e9ef;
+    border-bottom: 2px solid #b1e9ef;
+}
 }
 
 @media (max-width: 1060px) {

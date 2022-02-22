@@ -1,6 +1,50 @@
-.header__mobile-menu{
-	width: 72px;
+.header__mobile-menu-btn {
+	width: 77px;
 	height: 19px;
-	background-color: green;
+	display: none;
+	cursor: pointer;
+}
+.header__mobile-menu-btn span{
+	display: inline-block;
+}
+
+.mobile__menu-list {
 	display: none;
 }
+
+.burger {
+	width: 20px;
+	height: 16px;
+	display: inline-block;
+	margin-right: 9px;
+	position: relative;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+.burger-line {
+	width: 20px;
+	height: 2px;
+	background-color: #fff;
+	position: absolute;
+	top: 50%;
+	left: 0;
+}
+
+.burger-line::after,
+.burger-line::before {
+	width: 20px;
+	height: 2px;
+	background-color: #fff;
+	position: absolute;
+	content: "";
+}
+.burger-line::before {
+	bottom: 8px;
+	left: 0;
+}
+.burger-line::after {
+	top: 8px;
+	left: 0;
+}
+
+/* header__mobile-menu */
