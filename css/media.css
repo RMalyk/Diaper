@@ -43,6 +43,12 @@
 		min-height: 219px;
 	}
 }
+@media (max-width: 1370px) {
+	.cards__slider-button-next,
+	.cards__slider-button-prev {
+		display: none;
+	}
+}
 
 @media (max-width: 1200px) {
 	.menu__item:not(:last-child) {

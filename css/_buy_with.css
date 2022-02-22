@@ -2,12 +2,9 @@
 	margin: 0;
 }
 
-/* .swiper {
-	overflow: auto;
+.buy_with .container {
+	max-width: 1378px;
 }
-.swiper-wrapper {
-	overflow: hidden;
-} */
 
 .cards__slider-button-next,
 .cards__slider-button-prev {
@@ -26,11 +23,11 @@
 	border: 6px solid #66c9d3;
 }
 .cards__slider-button-prev {
-	left: 1198px;
+	left: 1287px;
 	top: -366px;
 }
 .cards__slider-button-next {
-	left: -87px;
+	left: 3px;
 	top: -303px;
 }
 
