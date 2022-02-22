@@ -26,12 +26,12 @@
 	border: 6px solid #66c9d3;
 }
 .cards__slider-button-prev {
-	left: 1105px;
-	top: -406px;
+	left: 1198px;
+	top: -366px;
 }
 .cards__slider-button-next {
-	left: 0;
-	top: -343px;
+	left: -87px;
+	top: -303px;
 }
 
 .cards__slider-button-next::after,
