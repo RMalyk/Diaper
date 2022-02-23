@@ -1,3 +1,11 @@
 images/
 fonts/
 node_modules/
+wp-admin/
+wp-includes/
+*.php
+*.txt
+*.html
+wp-content/themes/*
+!wp-content/themes/effiki/
+!wp-content/themes/effiki/*
