@@ -18,10 +18,11 @@ $body.on('click', function (event) {
 				case 'btn-order':
 					changeClassPopUp('.popUp__checkout');
 					break;
+				case 'checkout__btn':
+					changeClassPopUp('.popUp__checkout');
+					break;
 				case 'header__mobile-menu-btn':
-					console.log(1);
 					$('.mobile__menu-list').toggleClass('mobile_menu_isActive');
-					// changeClassPopUp('.popUp__checkout');
 					break;
 				case 'popUp-wrapper':
 					$('.popUp-wrapper').removeClass('popUp-isActive');
@@ -39,3 +40,12 @@ function changeClassPopUp(popUp) {
 	let activepopUp = $(popUp);
 	activepopUp.toggleClass('popUp-isActive');
 }
+
+
+$(window).on('scroll', function () {
+	if (window.pageYOffset >= 740) {
+		$('.checkout__btn').addClass('is_visibility');
+	} else{
+		$('.checkout__btn').removeClass('is_visibility');
+	}
+})
