@@ -79,7 +79,8 @@
 		display: block;
 		position: absolute;
 		top: -23px;
-		left: -100%;
+		left: 0;
+		transform: translate(-100%);
 		max-width: 379px;
 		height: 100vh;
 		background: linear-gradient(180deg, #40c1ce 0%, #b2f2f9 100%, #86e7f1 100%);
@@ -90,9 +91,7 @@
 	}
 
 	.mobile__menu-list.mobile_menu_isActive {
-		transition: all 0.3s;
-
-		left: 0;
+		transform: translateX(0%);
 	}
 
 	.mobile__menu-item {

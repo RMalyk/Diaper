@@ -9,6 +9,7 @@
 }
 
 .mobile__menu-list {
+	transition: all .6s;
 	display: none;
 }
 

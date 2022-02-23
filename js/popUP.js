@@ -14,15 +14,22 @@ $body.on('click', function (event) {
 					break;
 				case 'header__callback-btn':
 					changeClassPopUp('.popUp__call_back');
+					$('body').addClass('noScroll');
 					break;
 				case 'btn-order':
 					changeClassPopUp('.popUp__checkout');
+					$('body').addClass('noScroll');
 					break;
 				case 'checkout__btn':
 					changeClassPopUp('.popUp__checkout');
+					$('body').addClass('noScroll');
 					break;
 				case 'header__mobile-menu-btn':
+				case 'burger':
+				case 'burger-line':
+				case 'header__mobile-name':
 					$('.mobile__menu-list').toggleClass('mobile_menu_isActive');
+					$('body').toggleClass('noScroll');
 					break;
 				case 'popUp-wrapper':
 					$('.popUp-wrapper').removeClass('popUp-isActive');
