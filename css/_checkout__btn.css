@@ -22,13 +22,17 @@
 	border: 6px solid rgba(103, 202, 212, 0.3);
 }
 
+.checkout__btn-img {
+	margin-right: 4px;
+}
+
 .checkout__btn span {
 	position: absolute;
 	width: 24px;
 	height: 24px;
 
-	top: 23px;
-	left: 59px;
+	top: 17px;
+	left: 53px;
 
 	background: linear-gradient(180deg, #ffc343 0%, #ffa554 100%);
 	box-shadow: 0px 10px 60px rgba(255, 165, 84, 0.5);

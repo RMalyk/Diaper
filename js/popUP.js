@@ -22,7 +22,7 @@ $body.on('click', function (event) {
 					break;
 				case 'checkout__btn':
 					changeClassPopUp('.popUp__checkout');
-					$('body').addClass('noScroll');
+					$('body').toggleClass('noScroll');
 					break;
 				case 'header__mobile-menu-btn':
 				case 'burger':
