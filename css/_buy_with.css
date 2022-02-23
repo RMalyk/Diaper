@@ -17,6 +17,7 @@
 	cursor: pointer;
 	border: 6px solid #fff;
 	transition: all 0.3s;
+	z-index: 1;
 }
 .cards__slider-button-next:hover,
 .cards__slider-button-prev:hover {

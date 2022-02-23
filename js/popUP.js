@@ -1,7 +1,7 @@
 $body = $('body');
 
 $body.on('click', function (event) {
-	event.preventDefault();
+	// event.preventDefault();
 
 	if ($(event.target).attr('class')) { //проверяем на наличие ксласса в общем
 		$classArr = $(event.target).attr('class').split(/\s+/); //получаем все кслассы элемента, на который нажали

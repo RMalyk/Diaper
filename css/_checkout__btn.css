@@ -50,4 +50,5 @@
 
 .checkout__btn.is_visibility {
 	display: flex;
+	z-index: 0;
 }
