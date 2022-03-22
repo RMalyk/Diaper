@@ -6,6 +6,7 @@ wp-includes/
 *.php
 *.txt
 *.html
+.htaccess
 wp-content/themes/*
 !wp-content/themes/effiki/
 !wp-content/themes/effiki/*
