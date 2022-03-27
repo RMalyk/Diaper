@@ -1,0 +1,22 @@
+.contacts-wrapper{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 40px;
+}
+
+.contacts__item{
+	width: 25%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.contacts__item a,
+.contacts__item p{
+	max-width: 215px;
+}
+
+.contacts__img{
+	margin-right: 20px;
+	max-width: 19px;
+}

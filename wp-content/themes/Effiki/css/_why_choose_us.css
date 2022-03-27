@@ -1,0 +1,41 @@
+.why_choose_us {
+	margin: 0;
+}
+.why_choose_us-content {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(279px, 1fr));
+	grid-template-rows: repeat(auto-fit, minmax(601px, 1fr));
+	gap: 70px 70px;
+	width: 100%;
+}
+.why_choose_us-center {
+	grid-row: span 2;
+	max-width: 487px;
+	margin-left: -80px;
+}
+
+.why_choose_us-item {
+	margin-bottom: 79px;
+}
+.why_choose_us-item-header {
+	background-color: #e5fdff;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100px;
+	height: 100px;
+	margin-bottom: 21px;
+}
+
+.why_choose_us-item-description {
+	max-width: 279px;
+}
+
+.why_choose_us-item-title {
+	font-size: 24px;
+	line-height: 29px;
+	font-family: "Proxima Nova Semibold";
+	color: #374957;
+	margin-bottom: 16px;
+}

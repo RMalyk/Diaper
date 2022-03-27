@@ -1,0 +1,51 @@
+.why_choose_diapers {
+    width: 100%;
+}
+
+.advantages {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.advantages__item {
+    max-width: 218px;
+    min-height: auto;
+    /* margin: 0 10px 32px; */
+    margin-bottom: 32px;
+}
+
+.advantages__item+.advantages__item {
+    margin-left: 20px;
+}
+
+
+/* .advantages__item:first-child,
+.advantages__item:last-child {
+    margin: 0;
+} */
+
+.advantages__img {
+    background-color: #e5fdff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 25px;
+}
+
+.advantages__title {
+    font-family: "Proxima Nova Semibold";
+    width: 190px;
+    font-size: 20px;
+    line-height: 24px;
+    min-height: 72px;
+}
+
+.advantages__text {
+    line-height: 140.1%;
+    margin-top: 24px;
+}

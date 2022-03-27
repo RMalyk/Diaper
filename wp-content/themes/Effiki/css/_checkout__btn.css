@@ -1,0 +1,54 @@
+.checkout__btn {
+	position: fixed;
+	display: none;
+	cursor: pointer;
+	width: 100px;
+	height: 100px;
+
+	right: 40px;
+	bottom: 50px;
+
+	background: #67cad4;
+	box-shadow: 0px 14px 50px rgba(103, 202, 212, 0.3);
+	border-radius: 50%;
+	border: 6px solid #fff;
+
+	z-index: 1;
+	justify-content: center;
+	align-items: center;
+}
+
+.checkout__btn:hover {
+	border: 6px solid rgba(103, 202, 212, 0.3);
+}
+
+.checkout__btn-img {
+	margin-right: 4px;
+}
+
+.checkout__btn span {
+	position: absolute;
+	width: 24px;
+	height: 24px;
+
+	top: 17px;
+	left: 53px;
+
+	background: linear-gradient(180deg, #ffc343 0%, #ffa554 100%);
+	box-shadow: 0px 10px 60px rgba(255, 165, 84, 0.5);
+	border-radius: 50%;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	font-family: "Proxima Nova Semibold";
+	font-size: 16px;
+	line-height: 28px;
+	color: #ffffff;
+}
+
+.checkout__btn.is_visibility {
+	display: flex;
+	z-index: 0;
+}
