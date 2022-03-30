@@ -36,13 +36,23 @@ var cards__slider = new Swiper(".cards__slider", {
 });
 
 var gallery__slider = new Swiper(".gallery__slider", {
-	slidesPerView: 4,
+	slidesPerView: 2,
 	spaceBetween: 30,
 	pagination: {
 		el: ".swiper-pagination",
 		clickable: true,
 	},
 	loop: true,
+	breakpoints: {
+		876: {
+			slidesPerView: 3,
+			spaceBetween: 20
+		},
+		1160: {
+			slidesPerView: 4,
+			spaceBetween: 20
+		}
+	},
 });
 
 var reviews__slider = new Swiper(".reviews__slider", {

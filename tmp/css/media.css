@@ -223,6 +223,14 @@
 	.main__info {
 		text-align: center;
 	}
+	.page__title {
+		font-size: 32px;
+		line-height: 39px;
+	}
+	.page__text {
+		font-size: 18px;
+		line-height: 22px;
+	}
 	.main__box-wrapper {
 		flex-direction: column;
 	}
@@ -362,6 +370,20 @@
 	.how_to_order-item:nth-child(4) {
 		order: 0;
 	}
+	.gallery__slide img {
+		width: 140px;
+		height: auto;
+	}
+
+	.reviews__wrapper .swiper-slide {
+		flex-direction: column;
+	}
+	.reviews__author-info {
+		text-align: inherit;
+	}
+	.reviews__authot-text {
+		height: 120px;
+	}
 }
 
 @media (max-width: 540px) {
@@ -370,15 +392,56 @@
 	}
 }
 
-@media (max-width: 480px) {
+@media (max-width: 490px) {
+	.section__title {
+		font-size: 30px;
+		line-height: 37px;
+	}
+	.advantages__title {
+		font-size: 20px;
+		line-height: 24px;
+	}
+	.advantages__text {
+		font-size: 16px;
+		line-height: 140.1%;
+	}
+
 	.header-wrapper {
 		justify-content: space-between;
 	}
 	.header__mobile-contact {
 		margin-right: 20px;
 	}
+	.main__slider {
+		width: 255px;
+		height: 255px;
+		left: 33%;
+	}
+	.main__slider-button-prev {
+		left: 157px;
+		top: -88px;
+	}
+	.main__slider-button-next {
+		left: 64px;
+		top: -52px;
+	}
+	.btn-order-mobile {
+		margin-top: 20px;
+	}
+	.why_choose_us-img img {
+		width: 308px;
+		margin: 0 auto;
+		display: block;
+	}
+	.reviews__authot-text {
+		height: 147px;
+	}
 }
-
+@media (max-width: 440px) {
+	.reviews__authot-text {
+		height: 170px;
+	}
+}
 @media (max-width: 430px) {
 	.page__title {
 		font-size: 32px;
@@ -387,5 +450,20 @@
 	.page__text {
 		font-size: 18px;
 		line-height: 22px;
+	}
+
+	.main__slider {
+		left: 25%;
+	}
+}
+
+@media (max-width: 385px) {
+	.main__slider {
+		left: 15%;
+	}
+}
+@media (max-width: 335px) {
+	.main__slider {
+		left: 9%;
 	}
 }
