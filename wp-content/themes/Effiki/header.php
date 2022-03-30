@@ -18,31 +18,18 @@
 				<div class="logo">
 					<?php
 					// if (function_exists('custom-logo')) {
-						the_custom_logo();
+					the_custom_logo();
 					// }
 					?>
-
-
-					<!-- <img class="logo-img" src="images/logo-img.png" alt="logo" /> -->
 				</div>
 				<nav class="header__nav">
-					<ul class="menu__list">
-						<li class="menu__item">
-							<a class="menu__link" href="#why_choose_diapers">Преимущества</a>
-						</li>
-						<li class="menu__item">
-							<a class="menu__link" href="#choose_color">Каталог</a>
-						</li>
-						<li class="menu__item">
-							<a class="menu__link" href="#why_choose_us">Почему выбирают нас</a>
-						</li>
-						<li class="menu__item">
-							<a class="menu__link" href="#reviews">Отзывы</a>
-						</li>
-						<li class="menu__item">
-							<a class="menu__link" href="#footer">Контакты</a>
-						</li>
-					</ul>
+					<?php
+					wp_nav_menu(array(
+						'theme_location' => 'main-menu',
+						'menu_class' => 'menu__list',
+						'container' => 'ul'
+					));
+					?>
 					<ul class="mobile__menu-list">
 						<li class="mobile__menu-item">
 							<a class="mobile__menu-link" href="#">Преимущества</a>

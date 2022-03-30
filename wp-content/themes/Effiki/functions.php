@@ -66,12 +66,24 @@ function effiki_theme_support() {
 
 add_action( 'after_setup_theme', 'effiki_theme_support' );
 
-function register_my_menus() {
+function register_effiki_menus() {
   register_nav_menus(
     array(
-      'header-menu' => __( 'Header Menu' ),
-      'extra-menu' => __( 'Extra Menu' )
+      'main-menu' => __( 'Main menu' ),
      )
    );
  }
- add_action( 'init', 'register_my_menus' );
+ add_action( 'init', 'register_effiki_menus' );
+
+ add_filter( 'nav_menu_css_class', 'filter_nav_menu_css_classes', 10, 4 );
+ function filter_nav_menu_css_classes( $classes, $item, $args, $depth ) {
+	if ( $args->theme_location === 'main-menu' ) {
+		$classes = [
+			'menu__item',
+		];
+		// if ( $item->current ) {
+		// 	$classes[] = 'menu-node--active';
+		// }
+	}
+	return $classes;
+}
